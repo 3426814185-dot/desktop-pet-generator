@@ -1,0 +1,31 @@
+# ---- Python 缓存 ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# ---- 虚拟环境 ----
+.venv/
+venv/
+env/
+
+# ---- PyInstaller 产物 ----
+build/
+dist/
+*.spec.bak
+
+# ---- 运行时生成的数据 ----
+# 用户配置、抠图缓存、骨骼配置都在用户主目录 ~/.desktop-pet/，不在此仓库
+.desktop-pet/
+*.png
+!docs/*.png
+
+# ---- IDE / 编辑器 ----
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# ---- 本机专用脚本（路径写死，不通用）----
+make_shortcut*.ps1
+check_shortcut*.ps1
