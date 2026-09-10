@@ -34,7 +34,7 @@
 ### 从源码运行
 
 ```bash
-git clone https://github.com/3426814185-dot/-.git 桌宠生成器
+git clone https://github.com/3426814185-dot/desktop-pet-generator.git 桌宠生成器
 cd 桌宠生成器
 pip install -r requirements.txt
 python run.py
