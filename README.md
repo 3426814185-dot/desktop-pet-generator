@@ -25,13 +25,13 @@
 
 ### 直接运行（推荐）
 
-下载 Release 中的 `桌宠生成器.zip`，解压后双击 `桌宠生成器.exe` 即可（免安装，首次抠图会自动下载约 170MB 模型）。
+下载 Release 中的 `桌宠生成器-windows-x64.zip`，解压后双击 `桌宠生成器.exe` 即可（免安装，首次抠图会自动下载约 170MB 模型）。
 
 ### 从源码运行
 
 ```bash
-git clone https://github.com/<你的用户名>/desktop-pet.git
-cd desktop-pet
+git clone https://github.com/3426814185-dot/-.git 桌宠生成器
+cd 桌宠生成器
 pip install -r requirements.txt
 python run.py
 ```
@@ -63,7 +63,7 @@ python run.py
 ## 📁 文件结构
 
 ```
-desktop-pet/
+桌宠生成器/
 ├── run.py               # 入口
 ├── requirements.txt     # 依赖（onnxruntime 锁定 1.20.1）
 ├── pet.spec             # PyInstaller 打包配置（onedir 模式）
